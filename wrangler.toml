@@ -1,0 +1,12 @@
+name = "blackroad-email"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+ENVIRONMENT = "production"
+FROM_EMAIL = "noreply@blackroad.io"
+FROM_NAME = "BlackRoad"
+
+# Secrets (set via wrangler secret put):
+# SENDGRID_API_KEY
